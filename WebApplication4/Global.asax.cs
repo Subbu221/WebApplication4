@@ -12,6 +12,9 @@ namespace WebApplication4
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+  
+           var json = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
+           json.Indent = true;
         }
     }
 }
