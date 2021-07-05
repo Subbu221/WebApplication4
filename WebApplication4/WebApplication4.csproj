@@ -86,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\TextToSpeechController.cs" />
+    <Compile Include="Controllers\SpeechController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -97,9 +97,11 @@
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\SpeechServicesAPI - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\T2S - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\T2S - Web Deploy1.pubxml" />
     <None Include="Properties\PublishProfiles\T2S - Web Deploy2.pubxml" />
+    <None Include="Properties\PublishProfiles\TextToSpeechSynthesizer - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

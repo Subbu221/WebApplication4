@@ -13,8 +13,7 @@ namespace WebApplication4
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
   
-           var json = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
-           json.Indent = true;
+         
         }
     }
 }
