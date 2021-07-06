@@ -12,8 +12,7 @@ namespace WebApplication4
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
-  
-         
+            CustomLogging.Initialize(Server.MapPath("~"));
         }
     }
 }
